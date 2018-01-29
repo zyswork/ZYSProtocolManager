@@ -13,6 +13,7 @@
 		46D685F9201ECEB000521590 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 46D685F8201ECEB000521590 /* Assets.xcassets */; };
 		46D685FC201ECEB000521590 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 46D685FA201ECEB000521590 /* LaunchScreen.storyboard */; };
 		46D685FF201ECEB000521590 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 46D685FE201ECEB000521590 /* main.m */; };
+		46D68608201ECF2100521590 /* ZYSProtocolManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 46D68607201ECF2100521590 /* ZYSProtocolManager.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		46D685FB201ECEB000521590 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		46D685FD201ECEB000521590 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		46D685FE201ECEB000521590 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		46D68606201ECF2100521590 /* ZYSProtocolManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZYSProtocolManager.h; sourceTree = "<group>"; };
+		46D68607201ECF2100521590 /* ZYSProtocolManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZYSProtocolManager.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +61,7 @@
 		46D685EE201ECEB000521590 /* ZYSProtocolManager */ = {
 			isa = PBXGroup;
 			children = (
+				46D68605201ECF0600521590 /* ZYSProtocolManager */,
 				46D685EF201ECEB000521590 /* AppDelegate.h */,
 				46D685F0201ECEB000521590 /* AppDelegate.m */,
 				46D685F2201ECEB000521590 /* ViewController.h */,
@@ -67,6 +71,15 @@
 				46D685FA201ECEB000521590 /* LaunchScreen.storyboard */,
 				46D685FD201ECEB000521590 /* Info.plist */,
 				46D685FE201ECEB000521590 /* main.m */,
+			);
+			path = ZYSProtocolManager;
+			sourceTree = "<group>";
+		};
+		46D68605201ECF0600521590 /* ZYSProtocolManager */ = {
+			isa = PBXGroup;
+			children = (
+				46D68606201ECF2100521590 /* ZYSProtocolManager.h */,
+				46D68607201ECF2100521590 /* ZYSProtocolManager.m */,
 			);
 			path = ZYSProtocolManager;
 			sourceTree = "<group>";
@@ -144,6 +157,7 @@
 			files = (
 				46D685F4201ECEB000521590 /* ViewController.m in Sources */,
 				46D685FF201ECEB000521590 /* main.m in Sources */,
+				46D68608201ECF2100521590 /* ZYSProtocolManager.m in Sources */,
 				46D685F1201ECEB000521590 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
